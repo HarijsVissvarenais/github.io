@@ -1,0 +1,43 @@
+:root {
+  font-family: sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: plum;
+  width: 100vw;
+  height: 60px;
+  z-index: 10;
+}
+.parent {
+  background-color: blue;
+  height: 300px;
+  width: 200px;
+  position: relative;
+}
+.child {
+  background-color: yellow;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+main {
+  margin-top: 100px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  display: none;
+}
